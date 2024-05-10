@@ -78,3 +78,63 @@ a {
     cursor: pointer;
 }
 
+.section-two {
+    min-height: 376px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    margin: 32px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 150px;
+    
+}
+
+.subtext {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.section-three {
+    min-height: 376px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three>p {
+    width: 696px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signiture {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    text-align: end;
+    margin-right: 48px;
+}
